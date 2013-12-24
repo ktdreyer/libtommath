@@ -12,10 +12,10 @@ ifndef PREFIX
   PREFIX=
 endif
 
-CC=$(PREFIX)gcc
-LD=$(PREFIX)ld
-AR=$(PREFIX)ar
-RANLIB=$(PREFIX)ranlib
+CC?=$(PREFIX)gcc
+LD?=$(PREFIX)ld
+AR?=$(PREFIX)ar
+RANLIB?=$(PREFIX)ranlib
 
 ifndef MAKE
    MAKE=make
