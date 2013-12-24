@@ -73,8 +73,8 @@ extern "C" {
    typedef signed long long   long64;
 #endif
 
-   typedef unsigned long      mp_digit;
-   typedef unsigned long      mp_word __attribute__ ((mode(TI)));
+   typedef unsigned long long mp_digit;
+   typedef unsigned long long mp_word __attribute__ ((mode(TI)));
 
    #define DIGIT_BIT          60
 #else

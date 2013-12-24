@@ -19,7 +19,7 @@
 unsigned long mp_get_int(mp_int * a)
 {
   int i;
-  unsigned long res;
+  mp_digit res;
 
   if (a->used == 0) {
      return 0;
